@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-image: url(/img/BG.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #0b1d26;
+  color: #fff;
+}
+
+.header {
+  padding-top: 64px;
+  padding-bottom: 843px;
+}
+
+.container-wide {
+  width: 1790;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+.nav {
+}
+.nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.nav li {
+  margin-right: 40px;
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease-in;
+}
+.nav a:hover {
+  color: #fbd784;
+}
+.account {
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.2s ease-in;
+}
+.account:hover {
+  color: #fbd784;
+}
+
+.hero {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+  max-width: 980px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  transition: transform 0.2s ease-in;
+}
+.hero:hover {
+  transform: translateY(-5%);
+}
+.hero-category {
+  margin-bottom: 32px;
+  position: relative;
+  padding-left: 104px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #fbd784;
+}
+.hero-category::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  content: "";
+  width: 72px;
+  height: 2px;
+  background-color: #fbd784;
+}
+.hero-title {
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 1.136;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.hero-scroll {
+  display: inline-block;
+  position: relative;
+  padding-right: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.222;
+  color: #fff;
+}
+.hero-scroll ::after {
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 24px;
+  background-image: url("./../img/arrow_downward_24px.svg");
+}
+
+.container {
+  max-width: 1492px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main {
+  margin-top: -200px;
+}
+.article {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.article-text {
+  position: relative;
+  padding-left: 150px;
+  max-width: 792px;
+}
+.article-text ::before {
+  position: absolute;
+  left: 0;
+  top: 0%;
+  transform: translateY(-50%);
+  display: block;
+  content: "01";
+  width: 240px;
+  height: 240px;
+  font-weight: 700;
+  font-size: 240px;
+  line-height: 1;
+  color: #fff;
+  opacity: 0.1;
+}
+
+.article-subtitle {
+  margin-bottom: 32px;
+  position: relative;
+  padding-left: 96px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #fbd784;
+}
+.article-subtitle::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  content: "";
+  width: 72px;
+  height: 2px;
+  background-color: #fbd784;
+}
+.article-title {
+  margin-bottom: 27px;
+  max-width: 555px;
+  font-weight: 450;
+  font-size: 64px;
+  line-height: 1.2;
+  color: #fff;
+}
+.article-text p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.article-img {
+}
+
+.footer {
+  display: flex;
+}
+.footer-copyright {
+  display: flex;
+  flex-direction: column;
+}
+.footer-copyright-logo {
+  margin-bottom: 24px;
+}
+
+.fooret-copyright-desk {
+  max-width: 303px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.78;
+  color: #fff;
+}
+.fooret-copyright-terms {
+  margin-top: auto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #fff;
+  opacity: 0.5;
+}
+.footer-nav {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.78;
+  justify-content: space-between;
+}
+.footer-nav-title {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+  color: #fbd784;
+}
+
+justify-content: space-between;
+align-items: center;
